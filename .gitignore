@@ -1,0 +1,24 @@
+.ssh/
+.bash_history
+*.retry
+*.idea
+.DS_Store
+*.log
+
+# terraform exclude
+secret.tfvars
+secret.env
+*.tfstate
+*.tfstate.*
+.terraform
+*.tfstate.backup
+.terraform.lock.hcl
+
+# terragrunt
+.terragrunt-cache
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
