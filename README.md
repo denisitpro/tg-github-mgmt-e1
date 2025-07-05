@@ -79,8 +79,8 @@ Create a Personal Access Token (classic) or fine-grained token:
   - `admin:org`
   - `repo`
   - `read:org`
-** need testing **
-- For **fine-grained token**, grant access to: 
+  - `delete_repo`
+- Need testing: For **fine-grained token**, grant access to:  
   - Your organization
   - Repositories and organization administration
 
